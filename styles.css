@@ -1,0 +1,139 @@
+
+ 
+/* add our own custom css below */
+
+body {
+  font-family: 'Fragment Mono', sans-serif;
+    /*background-color: lightyellow;
+     rgb(190, 123, 160); ,  rgb(49, 49, 110)
+    background-color: rgb(231, 193, 239);*/
+    background-image: linear-gradient(lightyellow,  rgb(231, 193, 239));
+    font-size: 12px;
+  
+  }
+  
+  h1, h2 {
+    color: tomato;
+    font-family: 'Krona One', sans-serif;
+    }
+    
+  
+  
+  *, ::after, ::before {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  }
+
+  html {
+    box-sizing: border-box;
+}
+/*
+*, 
+*:before,
+*:after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+*/
+
+  
+  .hold-our-zine-tenderly {
+      height: 100vh;
+      width: 100%;
+      overflow: hidden;
+      display: flex;
+  }
+  
+  .left {
+      width: 30%;
+      padding: 2%;
+      overflow-y: scroll;
+      overflow-x: hidden;
+  }
+.right {
+    width: 70%;
+    padding: 2%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+ 
+  img {
+    width: 100%;
+    padding: 2%;
+  }
+  
+  p {
+    margin-bottom: 2px;
+  }
+  
+  
+  .left {
+      /* please change the border style */
+      border-right: 2px dashed black;
+  }
+  
+  .left::-webkit-scrollbar, .right::-webkit-scrollbar {
+      display: none;
+      width: 0 !important;
+  }
+  
+  .button {
+    background-color: white;
+    color: purple;
+  }
+  
+  #arti {
+    color: blue;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 2px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  footer {
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(164, 107, 145);
+    padding: 1em;
+  }
+    
+  ::-moz-selection { background-color: #88b156; 
+    color: #fff; } 
+    ::selection { background-color:  #88b156; 
+    color: #fff; }
