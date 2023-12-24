@@ -4,5 +4,6 @@ html, body {
 }
 canvas {
   display: block;
-  width: 50% !important;
+  width: 200 px !important;
+  height: 200 px !important;
 }
