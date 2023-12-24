@@ -41,23 +41,12 @@ function includeHTML() {
 <body>
     <div class="hold-our-zine-tenderly">
         <div class="left">
-              <h1>sophie shiff</h1>
-        <p style="font-family: Lucida Console, Monaco, monospace; color: purple; font-size: 20px;">
-            yay <em>its workin!!</em> and we are <strong>HUNGRY</strong>!!
-            what's on the menu for today? 
-        </p>
-         
+          <div w3-include-html="menu.html"></div>
       <br>
-        <br>
-        <!-- this is our list -->
-       
-         <p>tomato soup! </p>
-         <p>ask us about our soup of the day</p>
-         <p><a href="puppets.html">a collection of puppet shows</a></p>
-         <p><a href="coding.html">some experiments in coding</a></p>
-         <p><a href="ceramics.html">a menagerie of ceramic creatures and objects</a></p>
-         <p><a href="about.html">tell us about yourself!</a></p>
-           <p> <a href="index.html">return home</a></p>
+      <p><a href="index.html">< return home </a></p>
+      <script>
+      includeHTML();
+      </script>
     </div>
         <div class="right">
             <h1>sketchbooks</h1>
