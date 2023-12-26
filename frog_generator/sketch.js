@@ -23,11 +23,11 @@ function setup() {
     eyeH = 0;
     eyeVar = 0;
 
-   var myCanvas = createCanvas(winWidth,winHeight);
-    myCanvas.parent("frog_generator");
   
     initializeFields();
     //createCanvas(400, 400);
+   var myCanvas = createCanvas(200,200);
+    myCanvas.parent("frog_generator");
     headX = width / 2;
     headY = height / 2;
  
